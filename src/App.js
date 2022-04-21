@@ -1,12 +1,11 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Components/Js/Header/Header';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./Components/Js/Header/Header";
 
 function App() {
   return (
     <div>
       <Header></Header>
-      
     </div>
   );
 }

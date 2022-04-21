@@ -3,10 +3,10 @@ import "../../Css/Header/Header.css";
 
 const Header = () => {
   return (
-    <Header>
-      <h1>Singer Bangladesh Limited</h1>
-      <h2>Choose your best products..</h2>
-    </Header>
+    <header>
+      <h1>Singer-Plus Bangladesh Limited</h1>
+      <h2>Choose your best Products.</h2>
+    </header>
   );
 };
 
