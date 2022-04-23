@@ -1,0 +1,74 @@
+[
+   {
+       "id": 1,
+       "name": "Laptop",
+       "price": "$500",
+       "img": "https://i.ibb.co/B372QWw/5515-rz7-sl.jpg"
+   },
+   {
+       "id": 2,
+       "name": "Washing Machine-10kg",
+       "price": "$2000",
+       "img": "https://i.ibb.co/zSHX4cd/toploding-9kg.jpg"
+   },
+   {
+       "id": 3,
+       "name": "Washing Machine-6kg",
+       "price": "$250",
+       "img": "https://i.ibb.co/3R3NTzn/songer-6kg.jpg"
+   },
+   {
+       "id": 4,
+       "name": "32inch TV",
+       "price": "$700",
+       "img": "https://i.ibb.co/JKn6HqC/singer-40inc.jpg"
+   },
+   {
+       "id": 5,
+       "name": "Washing Machine-7kg-font-loding",
+       "price": "$500",
+       "img": "https://i.ibb.co/NN7vz9G/singer-fontloding-7kg.jpg"
+   },
+   {
+       "id": 6,
+       "name": "32inch Google TV",
+       "price": "$1200",
+       "img": "https://i.ibb.co/XZsZBPG/singer-32google.jpg"
+   },
+   {
+       "id": 7,
+       "name": "Top Loading-10kg",
+       "price": "$800",
+       "img": "https://i.ibb.co/F588dXv/singer-10kg-toploding.jpg"
+   },
+   {
+       "id": 8,
+       "name": "Double Door Refrigerator",
+       "price": "$1200",
+       "img": "https://i.ibb.co/fDwWWbN/ff2-69bi.jpg"
+   },
+   {
+       "id": 8,
+       "name": "Beko Washings Machine",
+       "price": "$1500",
+       "img": "https://i.ibb.co/Qv5fwBZ/beko-10kg-fontloding.jpg"
+   },
+   {
+       "id": 10,
+       "name": "Font Loading-7kg beko",
+       "price": "$1800",
+       "img": "https://i.ibb.co/D54nNvz/beko-6-kg-fontloding.jpg"
+   },
+   {
+       "id": 11,
+       "name": "Micro Wave Oven",
+       "price": "$900",
+       "img": "https://i.ibb.co/ZYxR0Zt/930mco-1.jpg"
+   },
+   {
+       "id": 12,
+       "name": "Singer Ac",
+       "price": "$2200",
+       "img": "https://i.ibb.co/FxzRH3r/12ag13grim.jpg"
+   }
+]
