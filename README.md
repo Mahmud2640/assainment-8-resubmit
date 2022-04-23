@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-My Project Nane [Singer Bangladesh](https://github.com/facebook/create-react-app).
+My Project Name [Singer Bangladesh](https://assainment-8-resubmit.netlify.app/).
 
 ## Available Scripts
 
@@ -12,13 +12,24 @@ npx create-react-app assainment-8-resubmit.
 
 ### `Component Name`
 
-Product
-QA section
-sidebar
+1.Css
+   *Cart
+   *Header
+   *Products
+   *QaSection
+   *Shop
+2.Js
+   *Cart
+   *Header
+   *Products
+   *QaSection
+   *Shop
+3.fakeData
+
 ### `In this project i use!!!!`
 
-html5
 css3
 jsx
 react
 bootstrap
+fontawsome icon
