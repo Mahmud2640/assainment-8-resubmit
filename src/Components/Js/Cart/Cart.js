@@ -1,7 +1,5 @@
 import React from "react";
 import "../../Css/Cart/Cart.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
 const Cart = ({ cart }) => {
   const { img, name } = cart;
@@ -11,9 +9,6 @@ const Cart = ({ cart }) => {
         <img src={img} alt="" />
         <h6>{name}</h6>
       </div>
-      <button className="delete-icon">
-        <FontAwesomeIcon icon={faTrash} />
-      </button>
     </div>
   );
 };

@@ -12,11 +12,22 @@ const Shop = () => {
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
+
   const addToCart = (product) => {
-    const newCart = [...cart, product];
-    setCart(newCart);
+    const exists = cart.includes(product);
+    if (cart.length < 4) {
+      if (!exists) {
+        const newCart = [...cart, product];
+        setCart(newCart);
+      } else {
+        alert("Product already in cart");
+      }
+    } else {
+      alert("You can only add 4 products");
+    }
   };
-  const deleteClick = (cart) => {
+
+  const deleteClick = () => {
     setCart([]);
   };
   const randomClick = (cart) => {
