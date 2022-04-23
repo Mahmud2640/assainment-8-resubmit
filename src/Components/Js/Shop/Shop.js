@@ -1,25 +1,27 @@
-import React, { useEffect, useState } from 'react';
-import '../../Css/Shop/Shop.css';
+import React, { useEffect, useState } from "react";
+import "../../Css/Shop/Shop.css";
+import Product from "../Products/Product";
 
 const Shop = () => {
-   const [products, setProducts] =useState([]);
+  const [products, setProducts] = useState([]);
 
-   useEffect ( () =>{
-      fetch('products.json')
-      .then(res => res.json())
-      .then(data => setProducts(data))
-
-   }, [])
-   return (
-      <div className="shop-container">
-         <div className="products-container">
-            <h1>hello {products.length}</h1>
-         </div>
-         <div className="cart-container">
-            <h1>hello</h1>
-         </div>
+  useEffect(() => {
+    fetch("products.json")
+      .then((res) => res.json())
+      .then((data) => setProducts(data));
+  }, []);
+  return (
+    <div className="shop-container">
+      <div className="products-container">
+        {products.map((product) => (
+          <Product key={product.id} product={product}></Product>
+        ))}
       </div>
-   );
+      <div className="cart-container">
+        <h1>Summery</h1>
+      </div>
+    </div>
+  );
 };
 
 export default Shop;
