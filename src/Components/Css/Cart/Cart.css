@@ -1,31 +1,25 @@
-.cart{
-   width: 90%;
-   margin: auto;
-   display: flex;
-   align-items: center;
+.cart {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
 }
 
-.cart-info img{
-   border: 1px solid black;
-   width: 70px;
-   border-radius: 5px;
+.cart-info img {
+  width: 70px;
+  border-radius: 5px;
 }
-.cart-info h6{
-   font-size: 20px;
-   padding: 15px;
-}
-
-.cart-info{
-   display: flex;
-   align-items: center;
+.cart-info h6 {
+  font-size: 20px;
+  padding: 15px;
 }
 
-.delete-icon{
-   font-size: 20px;
-   border: none;
-   background-color: black;
-   color: #fff;
-   padding: 10px;
-   border-radius: 5px;
-   cursor: pointer;
+.cart-info {
+  display: flex;
+  align-items: center;
+}
+
+.delete-icon {
+  color: black;
+  cursor: pointer;
 }

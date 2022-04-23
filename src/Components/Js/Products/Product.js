@@ -1,11 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartPlus } from '@fortawesome/free-solid-svg-icons'
+import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import "../../Css/Products/Product.css";
 
-const Product = ({product, addToCart}) => {
+const Product = ({ product, addToCart }) => {
   const { name, img, price } = product;
-  
+
   return (
     <div className="product">
       <img src={img} alt={name} />

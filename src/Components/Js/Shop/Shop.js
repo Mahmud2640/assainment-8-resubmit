@@ -39,9 +39,19 @@ const Shop = () => {
       <div className="cart-container">
         <h1>Summery</h1>
         {cart.map((cart) => (
-          <Cart key={cart.id} cart={cart} deleteClick={deleteClick}></Cart>
+          <Cart key={cart.id} cart={cart}></Cart>
         ))}
-        <button onClick={() => {randomClick(cart)}} className='choose-btn'>Choose One For Me</button>
+        <button
+          onClick={() => {
+            randomClick(cart);
+          }}
+          className="choose-btn"
+        >
+          Choose One For Me
+        </button>
+        <button onClick={deleteClick} className="reset-btn">
+          Choose Again
+        </button>
       </div>
     </div>
   );
