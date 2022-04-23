@@ -12,19 +12,13 @@ npx create-react-app assainment-8-resubmit.
 
 ### `Component Name`
 
-1.Css
-   *Cart
-   *Header
-   *Products
-   *QaSection
-   *Shop
-2.Js
-   *Cart
-   *Header
-   *Products
-   *QaSection
-   *Shop
-3.fakeData
+**Css**
+- Cart, Header, Products, QaSection, Shop **
+   
+**Js**
+- Cart, Header, Products, QaSection, Shop **
+
+**fakeData**
 
 ### `In this project i use!!!!`
 
