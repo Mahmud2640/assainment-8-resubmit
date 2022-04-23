@@ -28,9 +28,14 @@
    background-color: moccasin;
    border: none;
    border-radius: 8px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
+
 .product-button p{
    margin-top: 10px;
+   margin-right: 10px;
 
 }
 .product-button:hover{

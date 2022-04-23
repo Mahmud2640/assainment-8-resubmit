@@ -56,3 +56,14 @@ header h2 {
     width: 0ch;
   }
 }
+@media screen and (max-width: 600px) {
+  header h2 {
+    font-size: 30px;
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header h1 {
+    font-size: 30px;
+  }
+}
