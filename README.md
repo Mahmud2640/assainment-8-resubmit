@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Singer-Plus Bangladesh Limited
 
-My Project Name [Singer Bangladesh](https://assainment-8-resubmit.netlify.app/).
+Go to live link --- [Singer-Plus Bangladesh Limited](https://assainment-8-resubmit.netlify.app/).
 
 ## Available Scripts
 
@@ -12,13 +12,13 @@ npx create-react-app assainment-8-resubmit.
 
 ### `Component Name`
 
-**Css**
-- Cart, Header, Products, QaSection, Shop **
+**1.Css**
+- Cart, Header, Products, QaSection, Shop
    
-**Js**
-- Cart, Header, Products, QaSection, Shop **
+**2.Js**
+- Cart, Header, Products, QaSection, Shop
 
-**fakeData**
+**3.fakeData**
 
 ### `In this project i use!!!!`
 

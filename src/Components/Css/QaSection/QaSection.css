@@ -1,0 +1,42 @@
+.qus-container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr, 1fr;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.react-works {
+  font-size: 20px;
+  padding: 20px;
+  letter-spacing: 0.1em;
+  border-radius: 8px;
+  border: 2px solid #000;
+}
+
+.react-works h4 {
+  text-align: center;
+}
+
+.props-states {
+  font-size: 20px;
+  padding: 20px;
+  letter-spacing: 0.1em;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+.props-states h4 {
+  text-align: center;
+}
+
+@media screen and(max-width: 480px) {
+  .qusandans-container {
+    grid-template-columns: 1fr;
+  }
+  .react-works {
+    width: 100%;
+  }
+}

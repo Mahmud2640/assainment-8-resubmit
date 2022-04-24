@@ -11,14 +11,15 @@
 .cart-container {
   margin-left: 50px;
   background-color: lightcyan;
+  border: 2px solid #FBB73F;
   padding: 20px;
-  height: 100vh;
+  height: 80vh;
   position: sticky;
-  top: 0;
+  top: 20px;
 }
 .choose-btn{
    border: 0;
-   padding: 10px 25px;
+   padding: 10px 20px;
    background-color: #FBB73F;
    color: #000;
    font-weight: 700;
